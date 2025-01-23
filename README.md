@@ -1,5 +1,13 @@
 # NFC-King
 
+> [!CAUTION]
+> NFC-King is usually targeted as trojan/malware.
+> 
+> It seems the "official" Chinese setup also contains some dropper files and things that should not be there.
+> 
+> I will try to extract only the proper files from the setup and remove anything else that is not needed and might be malicious.
+
+
 ### How To Use: 
 
 0. Install the **[CH341SER](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)** driver.
