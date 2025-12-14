@@ -1,17 +1,16 @@
 # NFC-King
 
 > [!CAUTION]
-> NFC-King is usually targeted as trojan/malware.
+>NFC-King is often flagged as trojan/malware.
 > 
-> It seems the "official" Chinese setup also contains some dropper files and things that should not be there.
+>It appeared that the "official" Chinese installer included dropper components and other files that should not have been present.
 > 
-> I will try to extract only the proper files from the setup and remove anything else that is not needed and might be malicious.
-
+>I attempted to extract only the required, legitimate files from the installer and removed anything unnecessary or potentially malicious.
 
 ### How To Use: 
 
 0. Install the **[CH341SER](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)** driver.
-1. Download **[NFC-King-1.6.8.0.zip](https://github.com/skylandersNFC/NFC-King/releases/)**, extract it and run it.
+1. Download **[NFC-King-1.6.8.0-Portable.zip](https://github.com/skylandersNFC/NFC-King/releases/)**, extract it and run it.
 2. Conect your **[PN532 V2.0](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/PN532/)** and put a **[Chinese Magic Card](https://skylandersnfc.github.io/Docs/Know_Your_Magic_Cards/)** on it.
 3. Start the "**NFC-King.exe**" and you should see "**Found Nfc Device**"
 4. Click **[ReadIC]** and you should see a popup message starting with "**The unlocking is complete...**"
